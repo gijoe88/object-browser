@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/console/pkg/logger/color"
-	"github.com/minio/console/pkg/logger/message/log"
+	"github.com/gijoe88/object-browser/v2/pkg/logger/color"
+	"github.com/gijoe88/object-browser/v2/pkg/logger/message/log"
 	c "github.com/minio/pkg/v3/console"
 )
 

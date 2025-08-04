@@ -23,8 +23,8 @@ import (
 	"sort"
 	"time"
 
+	"github.com/gijoe88/object-browser/v2/pkg"
 	"github.com/minio/cli"
-	"github.com/minio/console/pkg"
 	"github.com/minio/pkg/v3/console"
 	"github.com/minio/pkg/v3/trie"
 	"github.com/minio/pkg/v3/words"

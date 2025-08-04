@@ -22,12 +22,12 @@ import (
 	"path/filepath"
 	"syscall"
 
+	"github.com/gijoe88/object-browser/v2/api"
+	"github.com/gijoe88/object-browser/v2/api/operations"
+	"github.com/gijoe88/object-browser/v2/pkg/certs"
 	"github.com/go-openapi/loads"
 	"github.com/jessevdk/go-flags"
 	"github.com/minio/cli"
-	"github.com/minio/console/api"
-	"github.com/minio/console/api/operations"
-	"github.com/minio/console/pkg/certs"
 )
 
 // starts the server

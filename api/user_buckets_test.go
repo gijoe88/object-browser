@@ -27,11 +27,11 @@ import (
 
 	"github.com/minio/minio-go/v7/pkg/notification"
 
-	"github.com/minio/console/pkg/auth/token"
-	"github.com/minio/console/pkg/utils"
+	"github.com/gijoe88/object-browser/v2/pkg/auth/token"
+	"github.com/gijoe88/object-browser/v2/pkg/utils"
 
+	"github.com/gijoe88/object-browser/v2/models"
 	"github.com/go-openapi/swag"
-	"github.com/minio/console/models"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7"

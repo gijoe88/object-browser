@@ -19,7 +19,7 @@ package token
 import (
 	"time"
 
-	"github.com/minio/console/pkg/auth/utils"
+	"github.com/gijoe88/object-browser/v2/pkg/auth/utils"
 	"github.com/minio/pkg/v3/env"
 )
 

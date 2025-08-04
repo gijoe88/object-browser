@@ -32,14 +32,14 @@ import (
 
 	"github.com/minio/minio-go/v7"
 
-	"github.com/minio/console/pkg/utils"
+	"github.com/gijoe88/object-browser/v2/pkg/utils"
 
+	"github.com/gijoe88/object-browser/v2/api/operations"
+	objectApi "github.com/gijoe88/object-browser/v2/api/operations/object"
+	"github.com/gijoe88/object-browser/v2/models"
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/klauspost/compress/zip"
-	"github.com/minio/console/api/operations"
-	objectApi "github.com/minio/console/api/operations/object"
-	"github.com/minio/console/models"
 	mc "github.com/minio/mc/cmd"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7/pkg/tags"

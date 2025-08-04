@@ -29,11 +29,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/gijoe88/object-browser/v2/api/operations/object"
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/api/operations/object"
 
+	"github.com/gijoe88/object-browser/v2/models"
 	"github.com/go-openapi/swag"
-	"github.com/minio/console/models"
 	mc "github.com/minio/mc/cmd"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7"

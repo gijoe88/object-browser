@@ -29,9 +29,9 @@ import (
 	"github.com/minio/minio-go/v7/pkg/sse"
 	xnet "github.com/minio/pkg/v3/net"
 
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg"
-	xjwt "github.com/minio/console/pkg/auth/token"
+	"github.com/gijoe88/object-browser/v2/models"
+	"github.com/gijoe88/object-browser/v2/pkg"
+	xjwt "github.com/gijoe88/object-browser/v2/pkg/auth/token"
 	mc "github.com/minio/mc/cmd"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7"

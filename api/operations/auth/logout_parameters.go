@@ -31,7 +31,7 @@ import (
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/validate"
 
-	"github.com/minio/console/models"
+	"github.com/gijoe88/object-browser/v2/models"
 )
 
 // NewLogoutParams creates a new LogoutParams object

@@ -23,8 +23,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/minio/console/pkg/logger/config"
-	"github.com/minio/console/pkg/logger/target/http"
+	"github.com/gijoe88/object-browser/v2/pkg/logger/config"
+	"github.com/gijoe88/object-browser/v2/pkg/logger/target/http"
 	"github.com/minio/pkg/v3/env"
 )
 

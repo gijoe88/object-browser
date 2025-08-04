@@ -27,7 +27,7 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	"github.com/minio/console/models"
+	"github.com/gijoe88/object-browser/v2/models"
 )
 
 // AdminInfoOKCode is the HTTP code returned for type AdminInfoOK

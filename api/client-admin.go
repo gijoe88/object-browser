@@ -24,11 +24,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/minio/console/pkg"
+	"github.com/gijoe88/object-browser/v2/pkg"
 
-	"github.com/minio/console/pkg/utils"
+	"github.com/gijoe88/object-browser/v2/pkg/utils"
 
-	"github.com/minio/console/models"
+	"github.com/gijoe88/object-browser/v2/models"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 )

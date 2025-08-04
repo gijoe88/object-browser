@@ -19,11 +19,11 @@ package api
 import (
 	"context"
 
+	"github.com/gijoe88/object-browser/v2/api/operations"
+	bucektApi "github.com/gijoe88/object-browser/v2/api/operations/bucket"
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/api/operations"
-	bucektApi "github.com/minio/console/api/operations/bucket"
 
-	"github.com/minio/console/models"
+	"github.com/gijoe88/object-browser/v2/models"
 )
 
 func registerBucketQuotaHandlers(api *operations.ConsoleAPI) {

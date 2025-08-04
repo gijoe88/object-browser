@@ -23,7 +23,7 @@ import (
 
 	"github.com/minio/minio-go/v7"
 
-	"github.com/minio/console/models"
+	"github.com/gijoe88/object-browser/v2/models"
 	"github.com/minio/madmin-go/v3"
 )
 

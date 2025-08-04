@@ -36,13 +36,13 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/minio/console/api/operations/auth"
-	"github.com/minio/console/api/operations/bucket"
-	"github.com/minio/console/api/operations/license"
-	"github.com/minio/console/api/operations/object"
-	"github.com/minio/console/api/operations/public"
-	"github.com/minio/console/api/operations/system"
-	"github.com/minio/console/models"
+	"github.com/gijoe88/object-browser/v2/api/operations/auth"
+	"github.com/gijoe88/object-browser/v2/api/operations/bucket"
+	"github.com/gijoe88/object-browser/v2/api/operations/license"
+	"github.com/gijoe88/object-browser/v2/api/operations/object"
+	"github.com/gijoe88/object-browser/v2/api/operations/public"
+	"github.com/gijoe88/object-browser/v2/api/operations/system"
+	"github.com/gijoe88/object-browser/v2/models"
 )
 
 // NewConsoleAPI creates a new Console instance

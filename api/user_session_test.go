@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/minio/console/pkg/utils"
+	"github.com/gijoe88/object-browser/v2/pkg/utils"
 
-	"github.com/minio/console/models"
+	"github.com/gijoe88/object-browser/v2/models"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -25,10 +25,10 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/gijoe88/object-browser/v2/models"
+	"github.com/gijoe88/object-browser/v2/pkg/auth"
+	"github.com/gijoe88/object-browser/v2/pkg/utils"
 	errorsApi "github.com/go-openapi/errors"
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg/auth"
-	"github.com/minio/console/pkg/utils"
 	"github.com/minio/websocket"
 )
 

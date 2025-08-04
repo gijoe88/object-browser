@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/minio/console/pkg/utils"
+	"github.com/gijoe88/object-browser/v2/pkg/utils"
 )
 
 // KeyVal - appended to ReqInfo.Tags
